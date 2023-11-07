@@ -1,0 +1,113 @@
+import 'package:flutter/gestures.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_boilerplate/core/theme/dimens.dart';
+import 'package:flutter_boilerplate/core/utils/check_desktop_size.dart';
+import 'package:flutter_boilerplate/core/widgets/app_drawer.dart';
+import 'package:flutter_boilerplate/core/widgets/buttons/app_fab.dart';
+import 'package:flutter_boilerplate/core/widgets/general_appbar.dart';
+import 'package:flutter_boilerplate/core/widgets/lists/app_list_view.dart';
+
+class AppScaffold extends StatelessWidget {
+  const AppScaffold({
+    super.key,
+    this.appBar,
+    this.body,
+    this.secondaryBody,
+    this.smallBody,
+    this.floatingActionButton,
+    this.floatingActionButtonLocation,
+    this.floatingActionButtonAnimator,
+    this.drawer,
+    this.onDrawerChanged,
+    this.endDrawer,
+    this.onEndDrawerChanged,
+    this.bottomNavigationBar,
+    this.bottomSheet,
+    this.resizeToAvoidBottomInset,
+    this.drawerDragStartBehavior = DragStartBehavior.start,
+    this.bodyFlex = 2,
+    this.secondaryBodyFlex = 1,
+  });
+
+  final GeneralAppBar? appBar;
+  final AppFab? floatingActionButton;
+  final FloatingActionButtonLocation? floatingActionButtonLocation;
+  final FloatingActionButtonAnimator? floatingActionButtonAnimator;
+  final AppDrawer? drawer;
+  final DrawerCallback? onDrawerChanged;
+  final Widget? endDrawer;
+  final DrawerCallback? onEndDrawerChanged;
+  final Widget? bottomNavigationBar;
+  final Widget? bottomSheet;
+  final bool? resizeToAvoidBottomInset;
+  final DragStartBehavior drawerDragStartBehavior;
+  final Widget? body;
+  final Widget? secondaryBody;
+  final Widget? smallBody;
+  final int bodyFlex;
+  final int secondaryBodyFlex;
+
+  @override
+  Widget build(final BuildContext context) {
+    return Scaffold(
+      appBar: appBar,
+      body: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: Dimens.padding),
+          child: smallBody != null
+              ? (checkDesktopSize(context)
+                  ? Center(
+                      child: SizedBox(
+                        width: Dimens.mediumDeviceBreakPoint,
+                        child: smallBody,
+                      ),
+                    )
+                  : smallBody)
+              : checkDesktopSize(context)
+                  ? Row(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        Expanded(
+                          flex: bodyFlex,
+                          child: body ?? const SizedBox.shrink(),
+                        ),
+                        if (secondaryBody == null)
+                          const SizedBox.shrink()
+                        else
+                          Expanded(
+                            flex: secondaryBodyFlex,
+                            child: secondaryBody!,
+                          ),
+                      ],
+                    )
+                  : secondaryBody == null
+                      ? body ?? const SizedBox.shrink()
+                      : AppListView(
+                          shrinkWrap: true,
+                          children: [
+                            body ?? const SizedBox.shrink(),
+                            secondaryBody ?? const SizedBox.shrink(),
+                          ],
+                        ),
+        ),
+      ),
+      floatingActionButton: floatingActionButton,
+      floatingActionButtonLocation: floatingActionButtonLocation,
+      floatingActionButtonAnimator: floatingActionButtonAnimator,
+      drawer: drawer,
+      onDrawerChanged: onDrawerChanged,
+      endDrawer: endDrawer,
+      onEndDrawerChanged: onEndDrawerChanged,
+      bottomNavigationBar: bottomNavigationBar,
+      bottomSheet: bottomSheet == null
+          ? null
+          : Padding(
+              padding: const EdgeInsets.all(Dimens.padding),
+              child: bottomSheet,
+            ),
+      resizeToAvoidBottomInset: resizeToAvoidBottomInset,
+      drawerDragStartBehavior: drawerDragStartBehavior,
+    );
+  }
+}

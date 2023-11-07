@@ -45,6 +45,22 @@ The app follows the Clean Architecture principles, with the following structure:
             - `presentation/`: Contains the UI layer of the app, including BLOCs, views, and widgets.
     - `main.dart`: Entry point of the application.
 
+## Dependencies
+
+The app utilizes several Flutter packages:
+
+- [bloc](https://pub.dev/packages/bloc): Abstracts business logic from presentation and handles state management.
+- [flutter_bloc](https://pub.dev/packages/flutter_bloc): Implements the BLOC pattern for state management.
+- [get_it](https://pub.dev/packages/get_it): Provides dependency injection capabilities.
+- [dio](https://pub.dev/packages/dio): Handles HTTP requests to fetch news articles.
+- [cached_network_image](https://pub.dev/packages/cached_network_image): Caches images fetched from the network.
+- [equatable](https://pub.dev/packages/equatable): Simplifies equality comparisons for state management.
+- [get_it](https://pub.dev/packages/get_it): Provides dependency injection capabilities.
+- [mockito](https://pub.dev/packages/mockito): Used for mocking dependencies in unit tests.
+- [flutter_test](https://pub.dev/packages/flutter_test): Used for writing unit and widget tests.
+- [shared_preferences](https://pub.dev/packages/shared_preferences): Handles caching fetched data from the network.
+- [slang](https://pub.dev/packages/slang): Handles localization and multilingual support.
+- [intl](https://pub.dev/packages/intl): Provides internationalization and localization facilities, including message translation, plurals/genders in messages, and date/number formatting based on the current Locale.
 
 ## Some useful descriptions
 
@@ -103,17 +119,9 @@ See for more information:
 
 ===============================
 
-
 Mockito package is used to generate mock classes for testing
 
 See for more information:
 [online documentation](https://pub.dev/packages/mockito)
-
-===============================
-
-Animation package contains pre-canned animations for commonly-desired effects.
-
-See for more information:
-[online documentation](https://pub.dev/packages/animations)
 
 ===============================

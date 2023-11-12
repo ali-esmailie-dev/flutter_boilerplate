@@ -6,7 +6,7 @@ class LocaleHandler {
   Future<AppLocale> getLocale() async {
     final String storedLocale = await HomeStorage().getLanguageLocale() ?? '';
     if (storedLocale == '') {
-      return AppLocale.fa;
+      return AppLocale.en;
     }
     if (storedLocale == 'fa') {
       return AppLocale.fa;

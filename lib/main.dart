@@ -13,6 +13,7 @@ import 'package:flutter_boilerplate/features/home_feature/presentation/bloc/show
 import 'package:flutter_boilerplate/features/home_feature/presentation/bloc/theme_cubit.dart';
 import 'package:flutter_boilerplate/features/stores_feature/presentation/bloc/stores_bloc.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
+
 // ignore: depend_on_referenced_packages
 import 'package:flutter_web_plugins/url_strategy.dart';
 import 'package:go_router/go_router.dart';
@@ -69,8 +70,10 @@ void main() async {
             return BlocBuilder<ShowMaterialGridsCubit, bool>(
               builder: (final context, final showMaterialGridsState) {
                 return BlocBuilder<ThemeCubit, ThemeMode?>(
-                  builder: (final BuildContext context,
-                      final ThemeMode? themeState) {
+                  builder: (
+                    final BuildContext context,
+                    final ThemeMode? themeState,
+                  ) {
                     return BlocBuilder<PrimaryColorCubit, PrimaryColorState>(
                       builder: (
                         final BuildContext context,

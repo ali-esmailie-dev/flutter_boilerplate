@@ -16,7 +16,7 @@ This repository contains a clean architecture structure using Flutter, following
 2. Change to the project directory:
 
    ```bash
-   cd news_app_clean_architecture
+   cd flutter_boilerplate
    ```
 
 3. Install the dependencies:

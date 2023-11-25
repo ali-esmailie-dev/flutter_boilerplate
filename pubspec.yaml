@@ -101,6 +101,12 @@ dependencies:
   # Package for testing bloc and cubit
   bloc_test: ^9.1.5
 
+  # Package for pick single or multiple files from device
+  file_picker: ^6.1.1
+
+  # Package for pick image from the image library, and taking new image with the camera
+  image_picker: ^1.0.4
+
 dev_dependencies:
   slang_build_runner: *slang_version
   build_runner: ^2.4.6

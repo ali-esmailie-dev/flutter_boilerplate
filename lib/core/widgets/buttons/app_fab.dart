@@ -9,7 +9,7 @@ class AppFab extends StatelessWidget {
     required this.icon,
     this.label,
   });
-  final GestureCancelCallback? onPressed;
+  final GestureTapCallback? onPressed;
   final bool isExtended;
   final IconData icon;
   final String? label;

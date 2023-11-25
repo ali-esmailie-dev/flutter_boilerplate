@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
 
 class AppIconButton extends StatelessWidget {
-  const AppIconButton(
-      {super.key,
-      this.onPressed,
-      required this.icon,
-      this.isFilled = false,
-      this.isBordered = false,
-      this.iconColor});
+  const AppIconButton({
+    super.key,
+    this.onPressed,
+    required this.icon,
+    this.isFilled = false,
+    this.isBordered = false,
+    this.iconColor,
+  });
 
-  final GestureCancelCallback? onPressed;
+  final GestureTapCallback? onPressed;
   final IconData icon;
   final bool isFilled;
   final bool isBordered;

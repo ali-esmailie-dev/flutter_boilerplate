@@ -1,9 +1,9 @@
 
 
 
-# Flutter clean architecture structure with BLOC and Get_It Package
+# Flutter clean architecture structure with BLOC and Get_It Packages
 
-This repository contains a clean architecture structure using Flutter, following the Clean Architecture principles and utilizing BLOC pattern along with Get_It packages.
+This repository contains a clean architecture structure using Flutter, following the Clean Architecture principles and utilizing BLOC pattern along with BLOC and Get_It packages.
 
 ## Installation
 

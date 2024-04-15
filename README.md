@@ -1,9 +1,9 @@
 
 
 
-# Flutter clean architecture structure with BLOC and Get_It Package
+# Flutter clean architecture structure with BLOC and Get_It Packages
 
-This repository contains a clean architecture structure using Flutter, following the Clean Architecture principles and utilizing BLOC pattern along with Get_It packages.
+This repository contains a clean architecture structure using Flutter, following the Clean Architecture principles and utilizing BLOC pattern along with BLOC and Get_It packages.
 
 ## Installation
 
@@ -16,7 +16,7 @@ This repository contains a clean architecture structure using Flutter, following
 2. Change to the project directory:
 
    ```bash
-   cd news_app_clean_architecture
+   cd flutter_boilerplate
    ```
 
 3. Install the dependencies:

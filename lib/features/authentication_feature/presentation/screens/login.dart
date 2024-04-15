@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_boilerplate/core/locator/locator.dart';
-import 'package:flutter_boilerplate/core/routes/go_routes_path.dart';
-import 'package:flutter_boilerplate/core/utils/app_snack_bar.dart';
-import 'package:flutter_boilerplate/core/utils/form_utils/formz_validation_models/validation_error_extensions.dart';
-import 'package:flutter_boilerplate/core/utils/sized_context.dart';
-import 'package:flutter_boilerplate/core/widgets/app_loading.dart';
-import 'package:flutter_boilerplate/core/widgets/app_scaffold.dart';
-import 'package:flutter_boilerplate/core/widgets/app_text_form_field.dart';
-import 'package:flutter_boilerplate/core/widgets/buttons/app_button.dart';
-import 'package:flutter_boilerplate/core/widgets/general_appbar.dart';
-import 'package:flutter_boilerplate/core/widgets/lists/app_single_child_scroll_view.dart';
-import 'package:flutter_boilerplate/features/authentication_feature/presentation/bloc/authentication_status.dart';
-import 'package:flutter_boilerplate/features/authentication_feature/presentation/bloc/login_bloc.dart';
+import 'package:personal_portfolio/core/locator/locator.dart';
+import 'package:personal_portfolio/core/routes/go_routes_path.dart';
+import 'package:personal_portfolio/core/utils/app_snack_bar.dart';
+import 'package:personal_portfolio/core/utils/form_utils/formz_validation_models/validation_error_extensions.dart';
+import 'package:personal_portfolio/core/utils/sized_context.dart';
+import 'package:personal_portfolio/core/widgets/app_loading.dart';
+import 'package:personal_portfolio/core/widgets/app_scaffold.dart';
+import 'package:personal_portfolio/core/widgets/app_text_form_field.dart';
+import 'package:personal_portfolio/core/widgets/buttons/app_button.dart';
+import 'package:personal_portfolio/core/widgets/general_appbar.dart';
+import 'package:personal_portfolio/core/widgets/lists/app_single_child_scroll_view.dart';
+import 'package:personal_portfolio/features/authentication_feature/presentation/bloc/authentication_status.dart';
+import 'package:personal_portfolio/features/authentication_feature/presentation/bloc/login_bloc.dart';
 import 'package:go_router/go_router.dart';
 
 class Login extends StatelessWidget {

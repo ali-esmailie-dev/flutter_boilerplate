@@ -1,6 +1,6 @@
 #!/bin/bash
 
-app="flutter_boilerplate"
+app="personal_portfolio"
 version=$(grep "version" "pubspec.yaml" | cut -d ' ' -f 2)
 versionNumber=$(echo "$version" | cut -d '+' -f 1)
 buildNumber=$(echo "$version" | cut -d '+' -f 2)

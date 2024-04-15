@@ -1,11 +1,11 @@
 import 'package:animations/animations.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:flutter_boilerplate/core/localization/i18n/translations.g.dart';
-import 'package:flutter_boilerplate/core/widgets/app_card.dart';
-import 'package:flutter_boilerplate/core/widgets/app_open_container.dart';
-import 'package:flutter_boilerplate/core/widgets/app_space.dart';
-import 'package:flutter_boilerplate/core/widgets/typography/app_title_text.dart';
+import 'package:personal_portfolio/core/localization/i18n/translations.g.dart';
+import 'package:personal_portfolio/core/widgets/app_card.dart';
+import 'package:personal_portfolio/core/widgets/app_open_container.dart';
+import 'package:personal_portfolio/core/widgets/app_space.dart';
+import 'package:personal_portfolio/core/widgets/typography/app_title_text.dart';
 
 const double _fabDimension = 56.0;
 

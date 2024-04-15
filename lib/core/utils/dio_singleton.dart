@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_boilerplate/core/routes/apis_routes.dart';
+import 'package:personal_portfolio/core/routes/apis_routes.dart';
 
 class DioSingleton {
   DioSingleton._internal();

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_boilerplate/core/widgets/app_scaffold.dart';
-import 'package:flutter_boilerplate/core/widgets/general_appbar.dart';
+import 'package:personal_portfolio/core/widgets/app_scaffold.dart';
+import 'package:personal_portfolio/core/widgets/general_appbar.dart';
 
 class TabScreen extends StatefulWidget {
   const TabScreen({super.key});

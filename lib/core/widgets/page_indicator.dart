@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_boilerplate/core/theme/colors.dart';
-import 'package:flutter_boilerplate/core/utils/check_theme_status.dart';
+import 'package:personal_portfolio/core/theme/colors.dart';
+import 'package:personal_portfolio/core/utils/check_theme_status.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class AppPageIndicator extends StatelessWidget {

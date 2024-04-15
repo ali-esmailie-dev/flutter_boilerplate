@@ -1,9 +1,9 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_boilerplate/core/routes/apis_routes.dart';
-import 'package:flutter_boilerplate/core/utils/general_api.dart';
-import 'package:flutter_boilerplate/features/authentication_feature/data/data_sources/local/auth_storage.dart';
-import 'package:flutter_boilerplate/features/authentication_feature/data/models/user_model.dart';
-import 'package:flutter_boilerplate/features/authentication_feature/data/models/verify_otp_model.dart';
+import 'package:personal_portfolio/core/routes/apis_routes.dart';
+import 'package:personal_portfolio/core/utils/general_api.dart';
+import 'package:personal_portfolio/features/authentication_feature/data/data_sources/local/auth_storage.dart';
+import 'package:personal_portfolio/features/authentication_feature/data/models/user_model.dart';
+import 'package:personal_portfolio/features/authentication_feature/data/models/verify_otp_model.dart';
 
 class AuthenticationApiProvider {
   final AuthStorage _authStorage = AuthStorage();

@@ -1,7 +1,7 @@
 import 'package:animations/animations.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_boilerplate/core/widgets/app_space.dart';
-import 'package:flutter_boilerplate/core/widgets/app_text_form_field.dart';
+import 'package:personal_portfolio/core/widgets/app_space.dart';
+import 'package:personal_portfolio/core/widgets/app_text_form_field.dart';
 
 class SharedAxisTransitionDemo extends StatefulWidget {
   const SharedAxisTransitionDemo({super.key});

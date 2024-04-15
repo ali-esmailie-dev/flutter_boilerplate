@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_boilerplate/core/utils/slide_transition_animations.dart';
-import 'package:flutter_boilerplate/core/widgets/app_scaffold.dart';
-import 'package:flutter_boilerplate/core/widgets/buttons/app_button.dart';
-import 'package:flutter_boilerplate/core/widgets/general_appbar.dart';
-import 'package:flutter_boilerplate/core/widgets/lists/app_list_view.dart';
+import 'package:personal_portfolio/core/utils/slide_transition_animations.dart';
+import 'package:personal_portfolio/core/widgets/app_scaffold.dart';
+import 'package:personal_portfolio/core/widgets/buttons/app_button.dart';
+import 'package:personal_portfolio/core/widgets/general_appbar.dart';
+import 'package:personal_portfolio/core/widgets/lists/app_list_view.dart';
 
 class SlideTransitionDemo extends StatefulWidget {
   const SlideTransitionDemo({super.key});

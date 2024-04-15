@@ -1,6 +1,6 @@
 import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_boilerplate/features/home_feature/data/data_sources/local/home_storage.dart';
+import 'package:personal_portfolio/features/home_feature/data/data_sources/local/home_storage.dart';
 
 class ThemeCubit extends Cubit<ThemeMode?> {
   ThemeCubit() : super(null) {

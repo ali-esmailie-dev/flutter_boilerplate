@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_boilerplate/core/theme/dimens.dart';
+import 'package:personal_portfolio/core/theme/dimens.dart';
 
-import 'package:flutter_boilerplate/core/utils/check_theme_status.dart';
+import 'package:personal_portfolio/core/utils/check_theme_status.dart';
 
 class AppTextFormField extends StatelessWidget {
   const AppTextFormField({

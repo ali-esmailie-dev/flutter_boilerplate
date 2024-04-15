@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_boilerplate/core/theme/dimens.dart';
-import 'package:flutter_boilerplate/core/widgets/app_list_tile.dart';
+import 'package:personal_portfolio/core/theme/dimens.dart';
+import 'package:personal_portfolio/core/widgets/app_list_tile.dart';
 
 class AppNotifyBanner extends StatefulWidget {
   const AppNotifyBanner({

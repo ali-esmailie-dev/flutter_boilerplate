@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
-import 'package:flutter_boilerplate/core/localization/i18n/translations.g.dart';
-import 'package:flutter_boilerplate/core/widgets/app_loading.dart';
-import 'package:flutter_boilerplate/core/widgets/buttons/app_text_button.dart';
+import 'package:personal_portfolio/core/localization/i18n/translations.g.dart';
+import 'package:personal_portfolio/core/widgets/app_loading.dart';
+import 'package:personal_portfolio/core/widgets/buttons/app_text_button.dart';
 
 class AppPullToRefresh extends StatelessWidget {
   const AppPullToRefresh({

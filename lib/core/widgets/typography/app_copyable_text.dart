@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_boilerplate/core/localization/i18n/translations.g.dart';
-import 'package:flutter_boilerplate/core/theme/dimens.dart';
-import 'package:flutter_boilerplate/core/utils/app_snack_bar.dart';
+import 'package:personal_portfolio/core/localization/i18n/translations.g.dart';
+import 'package:personal_portfolio/core/theme/dimens.dart';
+import 'package:personal_portfolio/core/utils/app_snack_bar.dart';
 
 class AppCopyableText extends StatelessWidget {
   const AppCopyableText({

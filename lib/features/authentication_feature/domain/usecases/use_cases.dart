@@ -1,8 +1,8 @@
-import 'package:flutter_boilerplate/core/resources/data_state.dart';
-import 'package:flutter_boilerplate/core/use_case/use_case.dart';
-import 'package:flutter_boilerplate/features/authentication_feature/data/models/user_model.dart';
-import 'package:flutter_boilerplate/features/authentication_feature/data/models/verify_otp_model.dart';
-import 'package:flutter_boilerplate/features/authentication_feature/domain/repositories/authentication_repository.dart';
+import 'package:personal_portfolio/core/resources/data_state.dart';
+import 'package:personal_portfolio/core/use_case/use_case.dart';
+import 'package:personal_portfolio/features/authentication_feature/data/models/user_model.dart';
+import 'package:personal_portfolio/features/authentication_feature/data/models/verify_otp_model.dart';
+import 'package:personal_portfolio/features/authentication_feature/domain/repositories/authentication_repository.dart';
 
 class LoginUseCase extends UseCase<DataState<bool>, String> {
 

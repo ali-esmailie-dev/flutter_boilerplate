@@ -1,4 +1,4 @@
-import 'package:flutter_boilerplate/features/authentication_feature/data/models/user_model.dart';
+import 'package:personal_portfolio/features/authentication_feature/data/models/user_model.dart';
 
 abstract class ProfileStatus {}
 

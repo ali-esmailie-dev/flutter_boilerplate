@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:dio/dio.dart';
 import 'package:dio/dio.dart' as dio_package;
 
-import 'package:flutter_boilerplate/core/utils/dio_singleton.dart';
+import 'package:personal_portfolio/core/utils/dio_singleton.dart';
 
 Future generalApiHandler({
   required final String method,

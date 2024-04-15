@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_boilerplate/core/localization/i18n/translations.g.dart';
-import 'package:flutter_boilerplate/features/home_feature/data/data_sources/local/home_storage.dart';
+import 'package:personal_portfolio/core/localization/i18n/translations.g.dart';
+import 'package:personal_portfolio/features/home_feature/data/data_sources/local/home_storage.dart';
 
 class LocaleHandler {
   Future<AppLocale> getLocale() async {

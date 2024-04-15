@@ -2,8 +2,8 @@ import 'dart:ui' as ui;
 
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:flutter_boilerplate/core/theme/colors.dart';
-import 'package:flutter_boilerplate/core/utils/check_theme_status.dart';
+import 'package:personal_portfolio/core/theme/colors.dart';
+import 'package:personal_portfolio/core/utils/check_theme_status.dart';
 
 class AppSvgViewer extends StatelessWidget {
   const AppSvgViewer({

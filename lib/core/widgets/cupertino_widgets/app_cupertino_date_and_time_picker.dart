@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_boilerplate/core/widgets/app_bottom_sheet_dialog.dart';
+import 'package:personal_portfolio/core/widgets/app_bottom_sheet_dialog.dart';
 
 Future<void> appCupertinoTimePickerDialog(
     final BuildContext context,

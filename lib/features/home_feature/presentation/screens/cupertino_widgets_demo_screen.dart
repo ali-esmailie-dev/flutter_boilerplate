@@ -1,18 +1,18 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_boilerplate/core/localization/i18n/translations.g.dart';
-import 'package:flutter_boilerplate/core/theme/dimens.dart';
-import 'package:flutter_boilerplate/core/utils/app_snack_bar.dart';
-import 'package:flutter_boilerplate/core/widgets/app_scaffold.dart';
-import 'package:flutter_boilerplate/core/widgets/app_space.dart';
-import 'package:flutter_boilerplate/core/widgets/buttons/app_text_button.dart';
-import 'package:flutter_boilerplate/core/widgets/cupertino_widgets/app_action_sheet.dart';
-import 'package:flutter_boilerplate/core/widgets/cupertino_widgets/app_context_menu.dart';
-import 'package:flutter_boilerplate/core/widgets/cupertino_widgets/app_cupertino_date_and_time_picker.dart';
-import 'package:flutter_boilerplate/core/widgets/general_appbar.dart';
-import 'package:flutter_boilerplate/core/widgets/lists/app_single_child_scroll_view.dart';
-import 'package:flutter_boilerplate/core/widgets/typography/app_text.dart';
+import 'package:personal_portfolio/core/localization/i18n/translations.g.dart';
+import 'package:personal_portfolio/core/theme/dimens.dart';
+import 'package:personal_portfolio/core/utils/app_snack_bar.dart';
+import 'package:personal_portfolio/core/widgets/app_scaffold.dart';
+import 'package:personal_portfolio/core/widgets/app_space.dart';
+import 'package:personal_portfolio/core/widgets/buttons/app_text_button.dart';
+import 'package:personal_portfolio/core/widgets/cupertino_widgets/app_action_sheet.dart';
+import 'package:personal_portfolio/core/widgets/cupertino_widgets/app_context_menu.dart';
+import 'package:personal_portfolio/core/widgets/cupertino_widgets/app_cupertino_date_and_time_picker.dart';
+import 'package:personal_portfolio/core/widgets/general_appbar.dart';
+import 'package:personal_portfolio/core/widgets/lists/app_single_child_scroll_view.dart';
+import 'package:personal_portfolio/core/widgets/typography/app_text.dart';
 import 'package:go_router/go_router.dart';
 
 class CupertinoWidgetsDemoScreen extends StatefulWidget {

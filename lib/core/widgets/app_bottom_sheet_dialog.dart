@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_boilerplate/core/theme/dimens.dart';
-import 'package:flutter_boilerplate/core/widgets/app_space.dart';
-import 'package:flutter_boilerplate/core/widgets/lists/app_single_child_scroll_view.dart';
+import 'package:personal_portfolio/core/theme/dimens.dart';
+import 'package:personal_portfolio/core/widgets/app_space.dart';
+import 'package:personal_portfolio/core/widgets/lists/app_single_child_scroll_view.dart';
 
 Future<void> appModalBottomSheetDialog(
   final BuildContext context,

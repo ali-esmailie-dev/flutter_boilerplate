@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_boilerplate/core/utils/check_theme_status.dart';
+import 'package:personal_portfolio/core/utils/check_theme_status.dart';
 
 class AppDataTable extends StatelessWidget {
   const AppDataTable({

@@ -2,8 +2,8 @@ import 'dart:io';
 import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_boilerplate/core/utils/locale_handler.dart';
-import 'package:flutter_boilerplate/core/utils/share_helper.dart';
+import 'package:personal_portfolio/core/utils/locale_handler.dart';
+import 'package:personal_portfolio/core/utils/share_helper.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:screenshot/screenshot.dart';
 import 'package:share_plus/share_plus.dart';

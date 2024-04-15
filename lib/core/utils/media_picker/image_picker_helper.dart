@@ -1,5 +1,5 @@
-import 'package:flutter_boilerplate/core/localization/i18n/translations.g.dart';
-import 'package:flutter_boilerplate/core/utils/app_snack_bar.dart';
+import 'package:personal_portfolio/core/localization/i18n/translations.g.dart';
+import 'package:personal_portfolio/core/utils/app_snack_bar.dart';
 import 'package:image_picker/image_picker.dart';
 
 /// Helper class for picking images using the image_picker package.

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_boilerplate/core/localization/i18n/translations.g.dart';
-import 'package:flutter_boilerplate/core/theme/colors.dart';
-import 'package:flutter_boilerplate/core/utils/check_theme_status.dart';
+import 'package:personal_portfolio/core/localization/i18n/translations.g.dart';
+import 'package:personal_portfolio/core/theme/colors.dart';
+import 'package:personal_portfolio/core/utils/check_theme_status.dart';
 import 'package:readmore/readmore.dart';
 
 class AppReadMoreText extends StatelessWidget {

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_boilerplate/core/widgets/app_card.dart';
+import 'package:personal_portfolio/core/widgets/app_card.dart';
 
 class AppListTile extends StatelessWidget {
 

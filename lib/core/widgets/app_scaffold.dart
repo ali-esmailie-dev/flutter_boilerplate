@@ -1,11 +1,11 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_boilerplate/core/theme/dimens.dart';
-import 'package:flutter_boilerplate/core/utils/check_desktop_size.dart';
-import 'package:flutter_boilerplate/core/widgets/app_drawer.dart';
-import 'package:flutter_boilerplate/core/widgets/buttons/app_fab.dart';
-import 'package:flutter_boilerplate/core/widgets/general_appbar.dart';
-import 'package:flutter_boilerplate/core/widgets/lists/app_list_view.dart';
+import 'package:personal_portfolio/core/theme/dimens.dart';
+import 'package:personal_portfolio/core/utils/check_desktop_size.dart';
+import 'package:personal_portfolio/core/widgets/app_drawer.dart';
+import 'package:personal_portfolio/core/widgets/buttons/app_fab.dart';
+import 'package:personal_portfolio/core/widgets/general_appbar.dart';
+import 'package:personal_portfolio/core/widgets/lists/app_list_view.dart';
 
 class AppScaffold extends StatelessWidget {
   const AppScaffold({
@@ -68,17 +68,17 @@ class AppScaffold extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       mainAxisSize: MainAxisSize.min,
                       children: [
+                        if (secondaryBody == null)
+                          const SizedBox.shrink()
+                        else
+                          SizedBox(
+                            width: 300,
+                            child: secondaryBody,
+                          ),
                         Expanded(
                           flex: bodyFlex,
                           child: body ?? const SizedBox.shrink(),
                         ),
-                        if (secondaryBody == null)
-                          const SizedBox.shrink()
-                        else
-                          Expanded(
-                            flex: secondaryBodyFlex,
-                            child: secondaryBody!,
-                          ),
                       ],
                     )
                   : secondaryBody == null

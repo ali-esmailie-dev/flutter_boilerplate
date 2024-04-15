@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_boilerplate/core/theme/dimens.dart';
+import 'package:personal_portfolio/core/theme/dimens.dart';
 
 class AppSearchableDropDown<T> extends StatelessWidget {
 

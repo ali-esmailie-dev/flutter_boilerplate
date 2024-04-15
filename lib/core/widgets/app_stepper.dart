@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_boilerplate/core/theme/colors.dart';
-import 'package:flutter_boilerplate/core/utils/get_primary_color.dart';
-import 'package:flutter_boilerplate/core/utils/locale_handler.dart';
+import 'package:personal_portfolio/core/theme/colors.dart';
+import 'package:personal_portfolio/core/utils/get_primary_color.dart';
+import 'package:personal_portfolio/core/utils/locale_handler.dart';
 
 class AppStepper extends StatelessWidget {
   const AppStepper({

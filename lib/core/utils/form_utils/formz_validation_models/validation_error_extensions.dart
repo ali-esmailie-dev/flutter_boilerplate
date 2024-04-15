@@ -1,9 +1,9 @@
-import 'package:flutter_boilerplate/core/utils/form_utils/formz_validation_models/email_input.dart';
-import 'package:flutter_boilerplate/core/utils/form_utils/formz_validation_models/last_name_input.dart';
-import 'package:flutter_boilerplate/core/utils/form_utils/formz_validation_models/name_input.dart';
-import 'package:flutter_boilerplate/core/utils/form_utils/formz_validation_models/national_code_input.dart';
-import 'package:flutter_boilerplate/core/utils/form_utils/formz_validation_models/phone_number_input.dart';
-import 'package:flutter_boilerplate/core/utils/form_utils/formz_validation_models/sheba_number_input.dart';
+import 'package:personal_portfolio/core/utils/form_utils/formz_validation_models/email_input.dart';
+import 'package:personal_portfolio/core/utils/form_utils/formz_validation_models/last_name_input.dart';
+import 'package:personal_portfolio/core/utils/form_utils/formz_validation_models/name_input.dart';
+import 'package:personal_portfolio/core/utils/form_utils/formz_validation_models/national_code_input.dart';
+import 'package:personal_portfolio/core/utils/form_utils/formz_validation_models/phone_number_input.dart';
+import 'package:personal_portfolio/core/utils/form_utils/formz_validation_models/sheba_number_input.dart';
 
 /// TODO ali: translate all errors
 

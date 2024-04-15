@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_boilerplate/core/localization/i18n/translations.g.dart';
-import 'package:flutter_boilerplate/core/widgets/app_space.dart';
-import 'package:flutter_boilerplate/core/widgets/buttons/app_outlined_button.dart';
+import 'package:personal_portfolio/core/localization/i18n/translations.g.dart';
+import 'package:personal_portfolio/core/widgets/app_space.dart';
+import 'package:personal_portfolio/core/widgets/buttons/app_outlined_button.dart';
 
 class AppErrorAgain extends StatelessWidget {
 

@@ -1,5 +1,5 @@
-import 'package:flutter_boilerplate/core/localization/i18n/translations.g.dart';
-import 'package:flutter_boilerplate/core/utils/app_snack_bar.dart';
+import 'package:personal_portfolio/core/localization/i18n/translations.g.dart';
+import 'package:personal_portfolio/core/utils/app_snack_bar.dart';
 import 'package:share_plus/share_plus.dart';
 
 class ShareHelper {

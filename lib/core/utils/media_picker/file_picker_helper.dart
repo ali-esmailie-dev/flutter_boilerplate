@@ -1,6 +1,6 @@
 import 'package:file_picker/file_picker.dart';
-import 'package:flutter_boilerplate/core/localization/i18n/translations.g.dart';
-import 'package:flutter_boilerplate/core/utils/app_snack_bar.dart';
+import 'package:personal_portfolio/core/localization/i18n/translations.g.dart';
+import 'package:personal_portfolio/core/utils/app_snack_bar.dart';
 
 /// Helper class for picking files using the file_picker package.
 class FilePickerHelper {

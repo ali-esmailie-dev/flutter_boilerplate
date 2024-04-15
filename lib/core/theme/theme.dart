@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_boilerplate/core/theme/colors.dart';
-import 'package:flutter_boilerplate/core/utils/locale_handler.dart';
+import 'package:personal_portfolio/core/theme/colors.dart';
+import 'package:personal_portfolio/core/utils/locale_handler.dart';
 
 class AppTheme {
   AppTheme(

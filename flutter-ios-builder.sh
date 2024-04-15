@@ -11,4 +11,4 @@ flutter pub get
 
 flutter build ipa --release --export-method=ad-hoc #--obfuscate --split-debug-info=obfuscate
 
-open /Users/pickopack/StudioProjects/flutter_boilerplate/build/ios/ipa
+open /Users/pickopack/StudioProjects/personal_portfolio/build/ios/ipa

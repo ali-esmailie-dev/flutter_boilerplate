@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:flutter_boilerplate/core/localization/i18n/translations.g.dart';
-import 'package:flutter_boilerplate/core/utils/app_date_formatter.dart';
-import 'package:flutter_boilerplate/core/utils/get_sheba_bank.dart';
-import 'package:flutter_boilerplate/core/utils/locale_handler.dart';
-import 'package:flutter_boilerplate/core/utils/number_formatter.dart';
+import 'package:personal_portfolio/core/localization/i18n/translations.g.dart';
+import 'package:personal_portfolio/core/utils/app_date_formatter.dart';
+import 'package:personal_portfolio/core/utils/get_sheba_bank.dart';
+import 'package:personal_portfolio/core/utils/locale_handler.dart';
+import 'package:personal_portfolio/core/utils/number_formatter.dart';
 
 class MockBuildContext extends Mock implements BuildContext {}
 

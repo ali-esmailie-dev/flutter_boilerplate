@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_boilerplate/core/theme/dimens.dart';
-import 'package:flutter_boilerplate/core/utils/sized_context.dart';
-import 'package:flutter_boilerplate/core/widgets/buttons/app_outlined_button.dart';
+import 'package:personal_portfolio/core/theme/dimens.dart';
+import 'package:personal_portfolio/core/utils/sized_context.dart';
+import 'package:personal_portfolio/core/widgets/buttons/app_outlined_button.dart';
 
 class AppDropDown<T> extends StatefulWidget {
   const AppDropDown({

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_boilerplate/core/localization/i18n/translations.g.dart';
-import 'package:flutter_boilerplate/core/routes/go_router_routes.dart';
-import 'package:flutter_boilerplate/core/theme/theme.dart';
+import 'package:personal_portfolio/core/localization/i18n/translations.g.dart';
+import 'package:personal_portfolio/core/routes/go_router_routes.dart';
+import 'package:personal_portfolio/core/theme/theme.dart';
 // ignore: depend_on_referenced_packages
 import 'package:flutter_localizations/flutter_localizations.dart';
 
@@ -29,7 +29,7 @@ class App extends StatelessWidget {
   Widget build(final BuildContext context) {
     return MaterialApp.router(
       routerConfig: routes,
-      title: 'flutter_boilerplate',
+      title: 'personal_portfolio',
       debugShowCheckedModeBanner: false,
       debugShowMaterialGrid: showMaterialGrids,
       showPerformanceOverlay: showPerformanceOverlay,

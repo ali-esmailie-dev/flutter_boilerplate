@@ -1,11 +1,11 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_boilerplate/core/resources/data_state.dart';
-import 'package:flutter_boilerplate/core/utils/response_error_handler.dart';
-import 'package:flutter_boilerplate/features/authentication_feature/data/data_sources/local/auth_storage.dart';
-import 'package:flutter_boilerplate/features/authentication_feature/data/data_sources/remote/api_provider.dart';
-import 'package:flutter_boilerplate/features/authentication_feature/data/models/user_model.dart';
-import 'package:flutter_boilerplate/features/authentication_feature/data/models/verify_otp_model.dart';
-import 'package:flutter_boilerplate/features/authentication_feature/domain/repositories/authentication_repository.dart';
+import 'package:personal_portfolio/core/resources/data_state.dart';
+import 'package:personal_portfolio/core/utils/response_error_handler.dart';
+import 'package:personal_portfolio/features/authentication_feature/data/data_sources/local/auth_storage.dart';
+import 'package:personal_portfolio/features/authentication_feature/data/data_sources/remote/api_provider.dart';
+import 'package:personal_portfolio/features/authentication_feature/data/models/user_model.dart';
+import 'package:personal_portfolio/features/authentication_feature/data/models/verify_otp_model.dart';
+import 'package:personal_portfolio/features/authentication_feature/domain/repositories/authentication_repository.dart';
 
 class AuthenticationRepositoryImpl extends AuthenticationRepository {
   AuthenticationRepositoryImpl(this.apiProvider);

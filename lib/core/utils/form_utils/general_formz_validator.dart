@@ -1,4 +1,4 @@
-import 'package:flutter_boilerplate/core/utils/app_snack_bar.dart';
+import 'package:personal_portfolio/core/utils/app_snack_bar.dart';
 import 'package:formz/formz.dart';
 
 /// Validate and show related messages

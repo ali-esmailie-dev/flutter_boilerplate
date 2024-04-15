@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_boilerplate/core/localization/i18n/translations.g.dart';
+import 'package:personal_portfolio/core/localization/i18n/translations.g.dart';
 import 'package:go_router/go_router.dart';
 
 void appActionSheet({

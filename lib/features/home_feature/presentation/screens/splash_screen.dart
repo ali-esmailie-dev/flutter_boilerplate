@@ -1,13 +1,13 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_boilerplate/core/localization/i18n/translations.g.dart';
-import 'package:flutter_boilerplate/core/routes/go_routes_path.dart';
-import 'package:flutter_boilerplate/core/theme/dimens.dart';
-import 'package:flutter_boilerplate/core/utils/get_app_version.dart';
-import 'package:flutter_boilerplate/core/widgets/app_loading.dart';
-import 'package:flutter_boilerplate/core/widgets/app_scaffold.dart';
-import 'package:flutter_boilerplate/core/widgets/app_space.dart';
+import 'package:personal_portfolio/core/localization/i18n/translations.g.dart';
+import 'package:personal_portfolio/core/routes/go_routes_path.dart';
+import 'package:personal_portfolio/core/theme/dimens.dart';
+import 'package:personal_portfolio/core/utils/get_app_version.dart';
+import 'package:personal_portfolio/core/widgets/app_loading.dart';
+import 'package:personal_portfolio/core/widgets/app_scaffold.dart';
+import 'package:personal_portfolio/core/widgets/app_space.dart';
 import 'package:go_router/go_router.dart';
 
 class SplashScreen extends StatefulWidget {

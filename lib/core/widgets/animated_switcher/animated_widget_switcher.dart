@@ -1,7 +1,7 @@
 import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
-import 'package:flutter_boilerplate/core/widgets/animated_switcher/animated_widget_switcher_controller.dart';
+import 'package:personal_portfolio/core/widgets/animated_switcher/animated_widget_switcher_controller.dart';
 
 class AnimatedWidgetSwitcher extends StatefulWidget {
   const AnimatedWidgetSwitcher({

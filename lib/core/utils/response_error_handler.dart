@@ -1,4 +1,4 @@
-import 'package:flutter_boilerplate/core/localization/i18n/translations.g.dart';
+import 'package:personal_portfolio/core/localization/i18n/translations.g.dart';
 
 /// Api request's response error handler
 String responseErrorHandler({final dynamic error}) {

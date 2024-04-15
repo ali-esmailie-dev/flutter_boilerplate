@@ -1,6 +1,6 @@
 import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_boilerplate/core/theme/colors.dart';
+import 'package:personal_portfolio/core/theme/colors.dart';
 
 part 'primary_color_state.dart';
 

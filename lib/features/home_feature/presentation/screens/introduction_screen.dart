@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_boilerplate/core/localization/i18n/translations.g.dart';
-import 'package:flutter_boilerplate/core/theme/dimens.dart';
-import 'package:flutter_boilerplate/core/utils/sized_context.dart';
-import 'package:flutter_boilerplate/core/widgets/app_space.dart';
-import 'package:flutter_boilerplate/core/widgets/buttons/app_button.dart';
-import 'package:flutter_boilerplate/core/widgets/page_indicator.dart';
-import 'package:flutter_boilerplate/features/home_feature/presentation/bloc/introduction_cubit.dart';
+import 'package:personal_portfolio/core/localization/i18n/translations.g.dart';
+import 'package:personal_portfolio/core/theme/dimens.dart';
+import 'package:personal_portfolio/core/utils/sized_context.dart';
+import 'package:personal_portfolio/core/widgets/app_space.dart';
+import 'package:personal_portfolio/core/widgets/buttons/app_button.dart';
+import 'package:personal_portfolio/core/widgets/page_indicator.dart';
+import 'package:personal_portfolio/features/home_feature/presentation/bloc/introduction_cubit.dart';
 
 class IntroductionScreen extends StatefulWidget {
   const IntroductionScreen({super.key});

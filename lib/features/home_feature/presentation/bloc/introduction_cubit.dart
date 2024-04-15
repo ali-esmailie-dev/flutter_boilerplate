@@ -1,6 +1,6 @@
 import 'package:bloc/bloc.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_boilerplate/core/routes/go_routes_path.dart';
+import 'package:personal_portfolio/core/routes/go_routes_path.dart';
 import 'package:go_router/go_router.dart';
 
 class IntroductionCubit extends Cubit<int> {

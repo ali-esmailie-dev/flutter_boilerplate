@@ -1,6 +1,6 @@
 import 'package:animations/animations.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_boilerplate/core/widgets/buttons/app_button.dart';
+import 'package:personal_portfolio/core/widgets/buttons/app_button.dart';
 
 Future<void> appAlertDialog({
   required final BuildContext context,

@@ -3,10 +3,10 @@ import 'dart:async';
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_boilerplate/core/resources/data_state.dart';
-import 'package:flutter_boilerplate/features/authentication_feature/data/models/verify_otp_model.dart';
-import 'package:flutter_boilerplate/features/authentication_feature/domain/usecases/use_cases.dart';
-import 'package:flutter_boilerplate/features/authentication_feature/presentation/bloc/authentication_status.dart';
+import 'package:personal_portfolio/core/resources/data_state.dart';
+import 'package:personal_portfolio/features/authentication_feature/data/models/verify_otp_model.dart';
+import 'package:personal_portfolio/features/authentication_feature/domain/usecases/use_cases.dart';
+import 'package:personal_portfolio/features/authentication_feature/presentation/bloc/authentication_status.dart';
 
 part 'verify_otp_event.dart';
 

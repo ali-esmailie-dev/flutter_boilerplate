@@ -10,7 +10,7 @@ This repository contains a clean architecture structure using Flutter, following
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/aliesmailie/flutter_boilerplate.git
+   git clone https://github.com/aliesmailie/personal_portfolio.git
    ```
 
 2. Change to the project directory:
@@ -70,7 +70,7 @@ See for more information:
 [online documentation](https://docs.brickhub.dev/) 
 
 To auto create clean architecture directories use mason:
-> mason make clean_architecture_folders --name home -o ~/AndroidStudioProjects/flutter_boilerplate/lib/features
+> mason make clean_architecture_folders --name home -o ~/AndroidStudioProjects/personal_portfolio/lib/features
 
 [online documentation](https://brickhub.dev/bricks/feature_brick/0.6.2)
 A brick to create a feature and tests using best practices and your state management of choice:
@@ -107,7 +107,7 @@ See for more information:
 [online documentation](https://brickhub.dev/bricks/formz_input/0.2.0) 
 
 To use command-line tool run this command:
-> mason make formz_input -o  ~/AndroidStudioProjects/flutter_boilerplate/lib/features --input_name PhoneNumber --input_type String --initial_value "''" --validate_empty_string true
+> mason make formz_input -o  ~/AndroidStudioProjects/personal_portfolio/lib/features --input_name PhoneNumber --input_type String --initial_value "''" --validate_empty_string true
 
 ===============================
 

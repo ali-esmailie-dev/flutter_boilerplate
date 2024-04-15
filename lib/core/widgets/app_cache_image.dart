@@ -1,6 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_boilerplate/core/widgets/app_loading.dart';
+import 'package:personal_portfolio/core/widgets/app_loading.dart';
 
 class AppCacheImage extends StatelessWidget {
   const AppCacheImage({

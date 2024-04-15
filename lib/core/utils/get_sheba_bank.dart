@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_boilerplate/core/utils/locale_handler.dart';
+import 'package:personal_portfolio/core/utils/locale_handler.dart';
 import 'package:persian_tools/persian_tools.dart';
 import 'package:persian_tools/src/core/sheba/model.dart';
 

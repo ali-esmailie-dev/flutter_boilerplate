@@ -1,41 +1,13 @@
-import 'package:flutter_boilerplate/features/authentication_feature/data/data_sources/remote/api_provider.dart';
-import 'package:flutter_boilerplate/features/authentication_feature/data/repositories/authentication_repository_impl.dart';
-import 'package:flutter_boilerplate/features/authentication_feature/domain/repositories/authentication_repository.dart';
-import 'package:flutter_boilerplate/features/authentication_feature/domain/usecases/use_cases.dart';
-import 'package:flutter_boilerplate/features/authentication_feature/presentation/bloc/login_bloc.dart';
-import 'package:flutter_boilerplate/features/authentication_feature/presentation/bloc/profile_bloc.dart';
-import 'package:flutter_boilerplate/features/authentication_feature/presentation/bloc/verify_otp_bloc.dart';
-import 'package:flutter_boilerplate/features/stores_feature/data/data_sources/remote/api_provider.dart';
-import 'package:flutter_boilerplate/features/stores_feature/data/repositories/store_repository_impl.dart';
-import 'package:flutter_boilerplate/features/stores_feature/domain/repositories/store_repository.dart';
-import 'package:flutter_boilerplate/features/stores_feature/domain/usecases/get_my_stores_usecase.dart';
-import 'package:flutter_boilerplate/features/stores_feature/domain/usecases/get_stores_use_cases.dart';
-import 'package:flutter_boilerplate/features/stores_feature/presentation/bloc/stores_bloc.dart';
 import 'package:get_it/get_it.dart';
+import 'package:personal_portfolio/features/authentication_feature/data/data_sources/remote/api_provider.dart';
+import 'package:personal_portfolio/features/authentication_feature/data/repositories/authentication_repository_impl.dart';
+import 'package:personal_portfolio/features/authentication_feature/domain/repositories/authentication_repository.dart';
+import 'package:personal_portfolio/features/authentication_feature/domain/usecases/use_cases.dart';
+import 'package:personal_portfolio/features/authentication_feature/presentation/bloc/login_bloc.dart';
+import 'package:personal_portfolio/features/authentication_feature/presentation/bloc/profile_bloc.dart';
+import 'package:personal_portfolio/features/authentication_feature/presentation/bloc/verify_otp_bloc.dart';
 
 GetIt locator = GetIt.instance;
-
-Future<void> setupStoreLocators() async {
-  /// register stores api provider
-  locator.registerSingleton<StoresApiProvider>(StoresApiProvider());
-
-  /// register my store repository
-  locator.registerSingleton<StoresRepository>(
-    StoresRepositoryImpl(
-      /// To automatically find from among the previous registrations
-      locator(),
-    ),
-  );
-
-  /// register nearby stores use case
-  locator.registerSingleton<GetStoresUseCases>(GetStoresUseCases(locator()));
-
-  /// register my stores use case
-  locator.registerSingleton<GetMyStoresUseCase>(GetMyStoresUseCase(locator()));
-
-  /// register bloc
-  locator.registerSingleton<StoresBloc>(StoresBloc(locator(), locator()));
-}
 
 Future<void> setupAuthenticationLocators() async {
   /// register authentication api provider

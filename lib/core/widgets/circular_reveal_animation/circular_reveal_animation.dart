@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_boilerplate/core/widgets/circular_reveal_animation/circular_reveal_clipper.dart';
+import 'package:personal_portfolio/core/widgets/circular_reveal_animation/circular_reveal_clipper.dart';
 
 class CircularRevealAnimation extends StatelessWidget {
   /// Creates [CircularRevealAnimation] with given params.

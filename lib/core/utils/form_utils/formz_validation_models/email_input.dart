@@ -1,4 +1,4 @@
-import 'package:flutter_boilerplate/core/utils/form_utils/fields_validator_methods.dart';
+import 'package:personal_portfolio/core/utils/form_utils/fields_validator_methods.dart';
 import 'package:formz/formz.dart';
 
 enum EmailValidationError { invalid, empty }

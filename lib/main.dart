@@ -1,35 +1,33 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_boilerplate/app.dart';
-import 'package:flutter_boilerplate/core/localization/i18n/translations.g.dart';
-import 'package:flutter_boilerplate/core/locator/locator.dart';
-import 'package:flutter_boilerplate/core/utils/locale_handler.dart';
-import 'package:flutter_boilerplate/features/authentication_feature/presentation/bloc/profile_bloc.dart';
-import 'package:flutter_boilerplate/features/home_feature/presentation/bloc/bottom_navigation_cubit.dart';
-import 'package:flutter_boilerplate/features/home_feature/presentation/bloc/counter_cubit.dart';
-import 'package:flutter_boilerplate/features/home_feature/presentation/bloc/primary_color_cubit.dart';
-import 'package:flutter_boilerplate/features/home_feature/presentation/bloc/show_material_grids_cubit.dart';
-import 'package:flutter_boilerplate/features/home_feature/presentation/bloc/show_performance_overlay_cubit.dart';
-import 'package:flutter_boilerplate/features/home_feature/presentation/bloc/theme_cubit.dart';
-import 'package:flutter_boilerplate/features/stores_feature/presentation/bloc/stores_bloc.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 
 // ignore: depend_on_referenced_packages
 import 'package:flutter_web_plugins/url_strategy.dart';
 import 'package:go_router/go_router.dart';
+import 'package:personal_portfolio/app.dart';
+import 'package:personal_portfolio/core/localization/i18n/translations.g.dart';
+import 'package:personal_portfolio/core/locator/locator.dart';
+import 'package:personal_portfolio/core/utils/locale_handler.dart';
+import 'package:personal_portfolio/features/authentication_feature/presentation/bloc/profile_bloc.dart';
+import 'package:personal_portfolio/features/home_feature/presentation/bloc/bottom_navigation_cubit.dart';
+import 'package:personal_portfolio/features/home_feature/presentation/bloc/counter_cubit.dart';
+import 'package:personal_portfolio/features/home_feature/presentation/bloc/primary_color_cubit.dart';
+import 'package:personal_portfolio/features/home_feature/presentation/bloc/show_material_grids_cubit.dart';
+import 'package:personal_portfolio/features/home_feature/presentation/bloc/show_performance_overlay_cubit.dart';
+import 'package:personal_portfolio/features/home_feature/presentation/bloc/theme_cubit.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   /// Setup all get_it locators
-  setupStoreLocators();
   setupAuthenticationLocators();
 
   /// Affect the browser's URL bar in flutter web app
   GoRouter.optionURLReflectsImperativeAPIs = true;
 
   /// Remove hash (#) from URL in flutter web app
-  setUrlStrategy(PathUrlStrategy());
+  setUrlStrategy(const PathUrlStrategy());
 
   /// Remove the native splash screen
   FlutterNativeSplash.remove();
@@ -54,9 +52,6 @@ void main() async {
         ),
         BlocProvider(
           create: (final BuildContext context) => BottomNavigationCubit(),
-        ),
-        BlocProvider(
-          create: (final BuildContext context) => locator<StoresBloc>(),
         ),
         BlocProvider(
           create: (final BuildContext context) => locator<ProfileBloc>(),

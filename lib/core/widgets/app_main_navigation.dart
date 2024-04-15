@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_boilerplate/core/utils/check_desktop_size.dart';
-import 'package:flutter_boilerplate/core/widgets/app_divider.dart';
+import 'package:personal_portfolio/core/utils/check_desktop_size.dart';
+import 'package:personal_portfolio/core/widgets/app_divider.dart';
 
 class AppMainNavigation extends StatelessWidget {
   const AppMainNavigation({

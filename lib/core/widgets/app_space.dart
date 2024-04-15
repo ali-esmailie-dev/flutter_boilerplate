@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_boilerplate/core/theme/dimens.dart';
+import 'package:personal_portfolio/core/theme/dimens.dart';
 
 /// Generate vertical space
 class AppVSpace extends StatelessWidget {

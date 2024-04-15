@@ -2,11 +2,11 @@ import 'package:bloc_test/bloc_test.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
-import 'package:flutter_boilerplate/core/resources/data_state.dart';
-import 'package:flutter_boilerplate/features/authentication_feature/domain/usecases/use_cases.dart';
-import 'package:flutter_boilerplate/features/authentication_feature/presentation/bloc/authentication_status.dart';
-import 'package:flutter_boilerplate/features/authentication_feature/presentation/bloc/login_bloc.dart';
-import 'package:flutter_boilerplate/features/authentication_feature/presentation/bloc/verify_otp_bloc.dart';
+import 'package:personal_portfolio/core/resources/data_state.dart';
+import 'package:personal_portfolio/features/authentication_feature/domain/usecases/use_cases.dart';
+import 'package:personal_portfolio/features/authentication_feature/presentation/bloc/authentication_status.dart';
+import 'package:personal_portfolio/features/authentication_feature/presentation/bloc/login_bloc.dart';
+import 'package:personal_portfolio/features/authentication_feature/presentation/bloc/verify_otp_bloc.dart';
 
 import 'authentication_blocs_test.mocks.dart';
 

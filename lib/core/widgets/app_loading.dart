@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_boilerplate/core/widgets/lottie_viewer.dart';
+import 'package:personal_portfolio/core/widgets/lottie_viewer.dart';
 
 class AppLoading extends StatelessWidget {
 

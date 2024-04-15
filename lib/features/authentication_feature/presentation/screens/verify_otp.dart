@@ -1,18 +1,18 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_boilerplate/core/localization/i18n/translations.g.dart';
-import 'package:flutter_boilerplate/core/locator/locator.dart';
-import 'package:flutter_boilerplate/core/theme/colors.dart';
-import 'package:flutter_boilerplate/core/utils/app_snack_bar.dart';
-import 'package:flutter_boilerplate/core/utils/check_theme_status.dart';
-import 'package:flutter_boilerplate/core/utils/sized_context.dart';
-import 'package:flutter_boilerplate/core/widgets/app_loading.dart';
-import 'package:flutter_boilerplate/core/widgets/app_scaffold.dart';
-import 'package:flutter_boilerplate/core/widgets/app_space.dart';
-import 'package:flutter_boilerplate/core/widgets/general_appbar.dart';
-import 'package:flutter_boilerplate/features/authentication_feature/presentation/bloc/authentication_status.dart';
-import 'package:flutter_boilerplate/features/authentication_feature/presentation/bloc/verify_otp_bloc.dart';
+import 'package:personal_portfolio/core/localization/i18n/translations.g.dart';
+import 'package:personal_portfolio/core/locator/locator.dart';
+import 'package:personal_portfolio/core/theme/colors.dart';
+import 'package:personal_portfolio/core/utils/app_snack_bar.dart';
+import 'package:personal_portfolio/core/utils/check_theme_status.dart';
+import 'package:personal_portfolio/core/utils/sized_context.dart';
+import 'package:personal_portfolio/core/widgets/app_loading.dart';
+import 'package:personal_portfolio/core/widgets/app_scaffold.dart';
+import 'package:personal_portfolio/core/widgets/app_space.dart';
+import 'package:personal_portfolio/core/widgets/general_appbar.dart';
+import 'package:personal_portfolio/features/authentication_feature/presentation/bloc/authentication_status.dart';
+import 'package:personal_portfolio/features/authentication_feature/presentation/bloc/verify_otp_bloc.dart';
 import 'package:sms_autofill/sms_autofill.dart';
 
 class VerifyOtp extends StatelessWidget {

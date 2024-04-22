@@ -55,6 +55,37 @@ class _TranslationsEn implements BaseTranslations<AppLocale, _TranslationsEn> {
 	String get copied => 'Copied successfully.';
 	String textInputValidationErrorMessage({required Object field}) => 'The ${field} field information is not valid.';
 	String get notFound => 'Page Not Found';
+	String get home => 'Home';
+	String get about => 'About';
+	String get resume => 'Resume';
+	String get portfolio => 'Portfolio';
+	String get services => 'Services';
+	String get contact => 'Contact';
+	String get settings => 'Settings';
+	String get myName => 'Ali Esmailie';
+	String get iAm => 'I\'m ';
+	String get developer => 'Developer';
+	String get designer => 'Designer';
+	String get freelancer => 'Freelancer';
+	String get youtuber => 'Youtuber';
+	String get aboutTitle => 'Mobile application designer and developer';
+	String get birthday => 'Birthday';
+	String get myBirthday => '15 May 1998';
+	String get website => 'Website';
+	String get phone => 'Phone number';
+	String get city => 'City';
+	String get myCity => 'Tehran, Iran';
+	String get age => 'Age';
+	String get degree => 'Degree';
+	String get myDegree => 'Bachelor';
+	String get email => 'E-mail';
+	String get freelance => 'Freelance';
+	String get available => 'Available';
+	String get stats => 'Statistics';
+	String get happyClients => 'Happy clients';
+	String get projects => 'Projects';
+	String get hoursOfSupport => 'Hours of support';
+	String get trainedStudent => 'Trained student';
 }
 
 // Path: login

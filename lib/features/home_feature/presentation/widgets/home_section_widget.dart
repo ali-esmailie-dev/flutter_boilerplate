@@ -1,5 +1,6 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
+import 'package:personal_portfolio/core/localization/i18n/translations.g.dart';
 import 'package:personal_portfolio/core/utils/get_primary_color.dart';
 
 class HomeSectionWidget extends StatelessWidget {
@@ -14,7 +15,7 @@ class HomeSectionWidget extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              'Ali Esmailie',
+              t.myName,
               style: TextStyle(
                 fontSize: 60.0,
                 color: getPrimaryColor(context),
@@ -24,10 +25,10 @@ class HomeSectionWidget extends StatelessWidget {
               width: 250.0,
               child: Row(
                 children: [
-                  const Text(
-                    "I'm ",
-                    style: TextStyle(
-                      fontSize: 40.0,
+                  Text(
+                    t.iAm,
+                    style: const TextStyle(
+                      fontSize: 35.0,
                     ),
                   ),
                   DefaultTextStyle(
@@ -38,20 +39,32 @@ class HomeSectionWidget extends StatelessWidget {
                       repeatForever: true,
                       animatedTexts: [
                         TypewriterAnimatedText(
-                          'Developer',
+                          t.developer,
                           speed: const Duration(milliseconds: 100),
+                          textStyle: const TextStyle(
+                            fontFamily: 'IranYekanXFaNum',
+                          ),
                         ),
                         TypewriterAnimatedText(
-                          'Designer',
+                          t.designer,
                           speed: const Duration(milliseconds: 100),
+                          textStyle: const TextStyle(
+                            fontFamily: 'IranYekanXFaNum',
+                          ),
                         ),
                         TypewriterAnimatedText(
-                          'Freelancer',
+                          t.freelancer,
                           speed: const Duration(milliseconds: 100),
+                          textStyle: const TextStyle(
+                            fontFamily: 'IranYekanXFaNum',
+                          ),
                         ),
                         TypewriterAnimatedText(
-                          'Youtuber',
+                          t.youtuber,
                           speed: const Duration(milliseconds: 100),
+                          textStyle: const TextStyle(
+                            fontFamily: 'IranYekanXFaNum',
+                          ),
                         ),
                       ],
                     ),

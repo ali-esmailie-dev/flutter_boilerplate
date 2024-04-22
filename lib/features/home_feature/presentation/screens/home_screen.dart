@@ -1,6 +1,7 @@
 import 'package:animations/animations.dart';
 import 'package:flutter/material.dart';
 import 'package:personal_portfolio/core/gen/assets.gen.dart';
+import 'package:personal_portfolio/core/localization/i18n/translations.g.dart';
 import 'package:personal_portfolio/core/theme/dimens.dart';
 import 'package:personal_portfolio/core/utils/get_primary_color.dart';
 import 'package:personal_portfolio/core/utils/sized_context.dart';
@@ -29,42 +30,42 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(final BuildContext context) {
-    const List<AppNavigationDestination> destinations =
+    final List<AppNavigationDestination> destinations =
         <AppNavigationDestination>[
       AppNavigationDestination(
-        label: 'Home',
-        selectedIcon: Icon(Icons.home),
-        icon: Icon(Icons.home_outlined),
+        label: t.home,
+        selectedIcon: const Icon(Icons.home),
+        icon: const Icon(Icons.home_outlined),
       ),
       AppNavigationDestination(
-        label: 'About',
-        selectedIcon: Icon(Icons.person),
-        icon: Icon(Icons.person_outline),
+        label: t.about,
+        selectedIcon: const Icon(Icons.person),
+        icon: const Icon(Icons.person_outline),
       ),
       AppNavigationDestination(
-        label: 'Resume',
-        selectedIcon: Icon(Icons.contact_page),
-        icon: Icon(Icons.contact_page_outlined),
+        label: t.resume,
+        selectedIcon: const Icon(Icons.contact_page),
+        icon: const Icon(Icons.contact_page_outlined),
       ),
       AppNavigationDestination(
-        label: 'Portfolio',
-        selectedIcon: Icon(Icons.business_center),
-        icon: Icon(Icons.business_center_outlined),
+        label: t.portfolio,
+        selectedIcon: const Icon(Icons.business_center),
+        icon: const Icon(Icons.business_center_outlined),
       ),
       AppNavigationDestination(
-        label: 'Services',
-        selectedIcon: Icon(Icons.design_services),
-        icon: Icon(Icons.design_services_outlined),
+        label: t.services,
+        selectedIcon: const Icon(Icons.design_services),
+        icon: const Icon(Icons.design_services_outlined),
       ),
       AppNavigationDestination(
-        label: 'Contact',
-        selectedIcon: Icon(Icons.mail),
-        icon: Icon(Icons.mail_outlined),
+        label: t.contact,
+        selectedIcon: const Icon(Icons.mail),
+        icon: const Icon(Icons.mail_outlined),
       ),
       AppNavigationDestination(
-        label: 'Settings',
-        selectedIcon: Icon(Icons.settings),
-        icon: Icon(Icons.settings_outlined),
+        label: t.settings,
+        selectedIcon: const Icon(Icons.settings),
+        icon: const Icon(Icons.settings_outlined),
       ),
     ];
     final List<Widget> sections = [
@@ -78,7 +79,6 @@ class _HomeScreenState extends State<HomeScreen> {
     ];
     return AppScaffold(
       body: PageTransitionSwitcher(
-        // reverse: !_isLoggedIn,
         transitionBuilder: (
           final Widget child,
           final Animation<double> animation,
@@ -119,7 +119,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   space: Dimens.largePadding * 2,
                 ),
                 Text(
-                  'Ali Esmailie',
+                  t.myName,
                   style: TextStyle(
                     color: getPrimaryColor(context),
                     fontWeight: FontWeight.bold,

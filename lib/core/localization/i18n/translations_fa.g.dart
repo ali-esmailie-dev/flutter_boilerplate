@@ -55,6 +55,37 @@ class _TranslationsFa implements _TranslationsEn {
 	@override String get copied => 'با موفقیت کپی شد.';
 	@override String textInputValidationErrorMessage({required Object field}) => 'اطلاعات فیلد ${field} معتبر نمی‌باشد.';
 	@override String get notFound => 'صفحه مورد نظر یافت نشد.';
+	@override String get home => 'خانه';
+	@override String get about => 'درباره من';
+	@override String get resume => 'رزومه';
+	@override String get portfolio => 'نمونه کارها';
+	@override String get services => 'خدمات';
+	@override String get contact => 'ارتباط با من';
+	@override String get settings => 'تنظیمات';
+	@override String get myName => 'علی اسماعیلی';
+	@override String get iAm => 'من ';
+	@override String get developer => 'دولوپرم';
+	@override String get designer => 'دیزاینرم';
+	@override String get freelancer => 'فریلنسرم';
+	@override String get youtuber => 'یوتیوبرم';
+	@override String get aboutTitle => 'طراح و توسعه‌دهنده اپلیکیشن موبایل';
+	@override String get birthday => 'تاریخ تولد';
+	@override String get myBirthday => '25 اردیبهشت 1377';
+	@override String get website => 'وبسایت';
+	@override String get phone => 'شماره تماس';
+	@override String get city => 'شهر';
+	@override String get myCity => 'تهران - ایران';
+	@override String get age => 'سن';
+	@override String get degree => 'مدرک تحصیلی';
+	@override String get myDegree => 'لیسانس';
+	@override String get email => 'ایمیل';
+	@override String get freelance => 'فریلنسری';
+	@override String get available => 'آماده به کار';
+	@override String get stats => 'آمار';
+	@override String get happyClients => 'مشتری';
+	@override String get projects => 'پروژه';
+	@override String get hoursOfSupport => 'ساعت پشتیبانی';
+	@override String get trainedStudent => 'دانشجو';
 }
 
 // Path: login

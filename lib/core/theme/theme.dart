@@ -30,12 +30,24 @@ class AppTheme {
         ),
       ),
       fontFamily: checkEnState(context) ? 'IranYekanX' : 'IranYekanXFaNum',
+      textTheme: const TextTheme(
+        bodySmall: TextStyle(
+          height: 2.0,
+        ),
+        bodyMedium: TextStyle(
+          height: 2.0,
+        ),
+        bodyLarge: TextStyle(
+          height: 2.0,
+        ),
+      ),
       appBarTheme: AppBarTheme(
         backgroundColor: Colors.white,
         toolbarTextStyle: TextStyle(
           fontFamily: checkEnState(context) ? 'IranYekanX' : 'IranYekanXFaNum',
           fontWeight: FontWeight.bold,
         ),
+        centerTitle: true,
       ),
     );
 
@@ -51,11 +63,23 @@ class AppTheme {
         ),
       ),
       fontFamily: checkEnState(context) ? 'IranYekanX' : 'IranYekanXFaNum',
+      textTheme: const TextTheme(
+        bodySmall: TextStyle(
+          height: 2.0,
+        ),
+        bodyMedium: TextStyle(
+          height: 2.0,
+        ),
+        bodyLarge: TextStyle(
+          height: 2.0,
+        ),
+      ),
       appBarTheme: AppBarTheme(
         toolbarTextStyle: TextStyle(
           fontFamily: checkEnState(context) ? 'IranYekanX' : 'IranYekanXFaNum',
           fontWeight: FontWeight.bold,
         ),
+        centerTitle: true,
       ),
     );
   }
